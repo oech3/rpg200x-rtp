@@ -14,7 +14,7 @@ source=("https://tkool.jp/products/rtp/2000rtp.zip"
 sha256sums=('c130f0078c0d6ecc3404f94af8258e4557ab85c3b204397c7f21dbc57efeef8e'
             '3041c57af04675b990da5709928fe7794cac2e4b21f6b526a81d310b353db3ad')
 noextract=('2000rtp.zip' 'RTP_patchk_190612.zip')
-
+options=(!strip) #build time optimization
 prepare() {
   # cleanup
   rm -rf "RTPｾｯﾄｱｯﾌﾟ" RPG2000RTP rtp 2000 RTP_patchk_190612
