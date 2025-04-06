@@ -9,7 +9,6 @@ arch=('any')
 url="https://tkool.jp/products/rtp.html"
 license=('custom: commercial')
 makedepends=('unshield' 'unzip' 'glibc')
-optdepends=('easyrpg-player: game engine for using the RTP')
 source=("https://tkool.jp/products/rtp/2003rtp.zip")
 sha256sums=('d388b183cc3a8206db53f58db4ea88c6661c9cf289c03aea1bf9ccd425f49cd1')
 noextract=('2003rtp.zip')
